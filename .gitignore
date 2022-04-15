@@ -1,0 +1,49 @@
+.history
+.hypothesis/
+
+# Secrets
+
+secret.env
+.env
+
+# Brownie
+
+build/
+reports/
+
+# Hardhat
+
+artifacts/
+cache/
+node_modules/
+typechain
+coverage.json
+deployments
+typechain-types/
+
+# MacOS
+
+.DS_Store
+
+# Python
+
+.pytest_cache
+__pycache__
+
+
+# Environments
+
+venv
+env
+
+# NFT
+
+hashlips_art_engine
+img/
+metadata/*
+!metadata/nft-spreadsheet-data.xlsx
+!metadata/logo.png
+hashlips_art_engine/layers/*
+!hashlips_art_engine/layers/.ignore_this_file
+
+
